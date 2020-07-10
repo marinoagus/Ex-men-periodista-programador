@@ -1,0 +1,85 @@
+    1  cd Desktop
+    2  git clone git@github.com:marinoagus/Ex-men-periodista-programador.git 
+    3  echo <h1>Este es el repositorio de mi examen</h1> 
+    4  cd Ex-men-periodista-programador/
+    5  echo Este es el examen de la materia El periodista como programador .. README.md
+    6  touch README.md
+    7  echo Este es el examen de la materia El periodista como programador >> README.md
+    8  mkdir imagenes
+    9  cd ../
+   10  cp IMG_20200707_170 /Ex-men-periodista-programador/imagenes
+   11  cp mifoto /Ex-men-periodista-programador/imagenes
+   12  cp mifoto.jpg /Ex-men-periodista-programador/imagenes
+   13  cp mifoto.jpg /Ex-men-periodista-programador/imagenes/mifoto.jpg
+   14  cd Ex-men-periodista-programador/
+   15  rmdir imagenes
+   16  mkdir html
+   17  cd html
+   18  touch index.html
+   19  echo "<h1>Este es un ejemplo de lo que podemos hacer con HTML</h1>" >> index.html
+   20  git status
+   21  cd ../
+   22  git status
+   23  git add
+   24  git status
+   25  git add README.md
+   26  git add html
+   27  git status
+   28  git push
+   29  git commit README.md
+   30  git status
+   31  git commit README.md
+   32  git status
+   33  git commit html
+   34  git status
+   35  cd html
+   36  touch mi-historia.html
+   37  echo "Esta es mi pagina personal donde voy a poner mi formacion profesional, una imagen, entre otras cosas" >> mi-historia.html
+   38  git add mi-historia.html
+   39  git status
+   40  cd ../
+   41  cd /html
+   42  cd html
+   43  git commit mi-historia.html
+   44  git status
+   45  git chekout test
+   46  git checkout test
+   47  git checkout -b test
+   48  touch README.md
+   49  echo "Este es el primer documento de la rama test" >> README.md
+   50  checkout master
+   51  checkout test
+   52  mkdir documentos-test
+   53  cp README.md README02.md
+   54  mv README02.md /documentos-test
+   55  git add test
+   56  git checkout master
+   57  git merge test
+   58  git status
+   59  git add README02.md
+   60  git commit README02.md 
+   61  cd ../
+   62  mkdir pyfiles
+   63  cd pyfiles
+   64  touch script1.py
+   65  echo "print('Este es mi primer script de Python. Aca podria crear un archivo para scrapear la web')" >> script1.py
+   66  cd ../
+   67  git add pyfiles
+   68  git commit pyfiles
+   69  git status
+   70  git log
+   71  echo "#Este es el titulo de mi pagina" > README.md
+   72  echo "Aqui hay que introducir una descripcion de la pagina para que pueda ser leida de forma correcta" >> README.md
+   73  echo "Esta pagina fue creada por una estudiante de **periodismo de investigacion, datos y visualizacion**" >>README.md
+   74  echo "Si te interesa esta rama de estudio, te recomiendo que chequees las siguientes Universidades" >> README.md
+   75  echo "* [La Universidad Internacional de La Rioja](https://www.unir.net)" >> README.md 
+   76  git add README.md
+   77  git status
+   78  git commit README.md
+   79  git status
+   80  git log
+   81  touch log
+   82  git log >> log
+   83  history
+   84  touch historico.txt
+   85  history >> historico.txt

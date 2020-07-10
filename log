@@ -1,0 +1,35 @@
+commit 7942216192870d8f431601e078517bc03cada8f8
+Author: Agustina Marino <marinoagus02>
+Date:   Fri Jul 10 18:59:11 2020 -0300
+
+    Incorpora una lista y enlaces
+
+commit cd6b3effa34dc5977552f342cfc05ee6cc266d16
+Author: Agustina Marino <marinoagus02>
+Date:   Fri Jul 10 18:50:03 2020 -0300
+
+    Agrego una carpeta para scripts de Python
+
+commit be5fc285a104cad179b70171f3e71fd2fc946aa4
+Author: Agustina Marino <marinoagus02>
+Date:   Fri Jul 10 18:46:28 2020 -0300
+
+    Aqui se incorpora el segundo README
+
+commit 6d274f3dda62fbcf547c42ba62b9a1ca79a554d4
+Author: Agustina Marino <marinoagus02>
+Date:   Fri Jul 10 18:39:44 2020 -0300
+
+    Incorpora la segunda pagina html
+
+commit 95dcfd5fa18909d456027bd091895ff6b504e1c0
+Author: Agustina Marino <marinoagus02>
+Date:   Fri Jul 10 18:36:40 2020 -0300
+
+    Inserta la carpeta html con un archivo index
+
+commit 489bfec56e85f73d7c6a7ff409adf4db4358bb55
+Author: Agustina Marino <marinoagus02>
+Date:   Fri Jul 10 18:33:26 2020 -0300
+
+    Incorpora el archivo README en Markdown
